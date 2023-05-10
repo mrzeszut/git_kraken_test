@@ -38,7 +38,25 @@ execute:
 
 <style type="text/css"> body {text-align: justify}  </style>
 
-
 ## Wprowadzenie 
 
+```{r}
+#| eval: false
+install.packages("devtools")
+install.packages("gitcreds")
+```
+
+### Przedstaw się
+
+```{bash}
+#| eval: false
+git config --global user.name 'Mateusz Rzeszutek'
+git config --global user.email 'rzeszut@agh.edu.pl'
+git config --global --list
+```
+
+```{r}
+usethis::create_github_token()
+usethis::git_default_branch_configure()
+```
 
