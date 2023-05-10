@@ -1,0 +1,44 @@
+---
+title: "Working in RStudio with Git, GitHub and GitKrake"
+author: "Mateusz Rzeszutek"
+date: today 
+format: 
+  html:
+    toc: true
+    toc-depth: 4
+    toc-location: right
+    toc-title: Spis Treści
+    number-sections: true
+    number-depth: 4
+    embed-resources: true
+    html-math-method: katex
+    code-tools: true
+    code-block-bg: true
+    code-block-border-left: blue
+    code-fold: show
+    code-summary: "Show and hide code"
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    self-contained: true
+    citation: true
+    theme: 
+        dark: solar
+        light: flatly
+    fontsize: 1.0em
+    linestretch: 1.3
+    fig-align: center
+execute: 
+  echo: true
+  error: false
+  warning: false
+  output: true
+  cache: false
+---
+
+<style type="text/css"> body {text-align: justify}  </style>
+
+
+## Wprowadzenie 
+
+
