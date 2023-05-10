@@ -34,6 +34,9 @@ execute:
   warning: false
   output: true
   cache: false
+  keep_md: yes
+editor_options: 
+  chunk_output_type: console
 ---
 
 <style type="text/css"> body {text-align: justify}  </style>
@@ -58,5 +61,18 @@ git config --global --list
 ```{r}
 usethis::create_github_token()
 usethis::git_default_branch_configure()
+```
+
+
+```{r}
+#| output: false
+library(tidyverse)
+library(DT)
+```
+
+
+```{r}
+mtcars |> knitr::kable()
+mtcars |> DT::datatable(style = 'bootstrap')
 ```
 
